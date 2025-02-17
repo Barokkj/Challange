@@ -38,5 +38,5 @@ function sortearAmigo() {
         alert("Adicione amigos para poder sortear");
     }
     let sorteio = arrayAmigos[Math.floor(Math.random() * arrayAmigos.length)];
-    listaAmigos.innerHTML= sorteio
+    listaAmigos.innerHTML= `o amigo sorteado é ${sorteio}` 
 }
