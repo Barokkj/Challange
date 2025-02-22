@@ -36,7 +36,9 @@ function atualizarListaAmigos() {
 function sortearAmigo() {
     if (arrayAmigos.length===0){
         alert("Adicione amigos para poder sortear");
-    }
+    return;
+}
+    
     let sorteio = arrayAmigos[Math.floor(Math.random() * arrayAmigos.length)];
     listaAmigos.innerHTML= `o amigo sorteado é ${sorteio}` 
 }

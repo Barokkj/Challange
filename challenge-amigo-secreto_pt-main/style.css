@@ -116,9 +116,11 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color: #4B69FD;
+    ;
+    color: white;
     border-radius: 0 25px 25px 0;
+    
 }
 
 .button-add:hover {
